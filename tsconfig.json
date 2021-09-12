@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": true,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "lib": ["es5", "es2015.promise", "esnext.asynciterable"],
+    "skipLibCheck": false,
+    "alwaysStrict": true,
+    "removeComments": true,
+    "typeRoots": ["node_modules/@types"],
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
